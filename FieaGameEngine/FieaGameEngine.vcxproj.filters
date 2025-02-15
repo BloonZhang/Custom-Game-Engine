@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{bea828ae-78c5-4f88-b770-621aae5ddf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{5592ccae-9cdc-4a1f-9512-d70b04a9d309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Datum/Scope">
+      <UniqueIdentifier>{fd77390a-c40d-4088-9ae6-eb33efdcf2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Attributed">
+      <UniqueIdentifier>{fc7c0fb3-9ae0-478b-8584-8bf6c04ce72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\JSON">
+      <UniqueIdentifier>{4e3c4825-d924-44a1-84f9-434f4089a6e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Factory">
+      <UniqueIdentifier>{2c82c9d2-27d8-4484-bd21-86d62a5a55bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GameObject">
+      <UniqueIdentifier>{1b2d8244-a5cb-4140-a471-aee1274eed07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Event">
+      <UniqueIdentifier>{69179c2e-8844-4b1c-a458-1429db07dc51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RTTI.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Datum.h">
+      <Filter>Core\Datum/Scope</Filter>
+    </ClInclude>
+    <ClInclude Include="Scope.h">
+      <Filter>Core\Datum/Scope</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributed.h">
+      <Filter>Core\Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeRegistrySingleton.hpp">
+      <Filter>Core\Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="IParseHandler.h">
+      <Filter>Core\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseCoordinator.h">
+      <Filter>Core\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Wrapper.h">
+      <Filter>Core\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeHandler.h">
+      <Filter>Core\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopeWrapper.h">
+      <Filter>Core\JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="IFactory.h">
+      <Filter>Core\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryManagerSingleton.hpp">
+      <Filter>Core\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionList.h">
+      <Filter>Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionListWhile.h">
+      <Filter>Core\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="EventQueueSingleton.hpp">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="GameClock.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EventInstance.h">
+      <Filter>Core\Event</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RTTI.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Datum.cpp">
+      <Filter>Core\Datum/Scope</Filter>
+    </ClCompile>
+    <ClCompile Include="Scope.cpp">
+      <Filter>Core\Datum/Scope</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributed.cpp">
+      <Filter>Core\Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="IParseHandler.cpp">
+      <Filter>Core\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseCoordinator.cpp">
+      <Filter>Core\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="Wrapper.cpp">
+      <Filter>Core\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeHandler.cpp">
+      <Filter>Core\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopeWrapper.cpp">
+      <Filter>Core\JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionList.cpp">
+      <Filter>Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionListWhile.cpp">
+      <Filter>Core\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>Core\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClock.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EventInstance.cpp">
+      <Filter>Core\Event</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="RTTI.inl">
+      <Filter>Core</Filter>
+    </None>
+  </ItemGroup>
+</Project>

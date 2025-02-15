@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Test Classes - Attributed">
+      <UniqueIdentifier>{ebde883f-706a-4826-9cb6-7b97a76ce1da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Classes - JSON">
+      <UniqueIdentifier>{6b836bcc-40d1-4813-8084-c34adebf57f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Classes - JSON\Test Files - JSON">
+      <UniqueIdentifier>{df2680a4-28b9-4752-a1e8-70d1dafaa445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Classes - Factory">
+      <UniqueIdentifier>{314142ad-5769-4ef0-aa8c-e685724d2b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Classes - GameObject">
+      <UniqueIdentifier>{33e59ef5-a1f8-48f1-882d-b0cdd4666269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Classes - Event">
+      <UniqueIdentifier>{46e2a52c-eda2-4ea7-8cc7-fb7ab27dc51f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FieaGameEngine.test.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\ChildOfEmpty.cpp">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\Empty.cpp">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\Foo.cpp">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\Temp.cpp">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="RTTI.test.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scope.test.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleInheritance.test.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Attributed.test.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\Mage.cpp">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\Elf.cpp">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\WhiteMage.cpp">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\TestParseHandler.cpp">
+      <Filter>Test Classes - JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="JSON.test.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\TestWrapper.cpp">
+      <Filter>Test Classes - JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\IntWrapper.cpp">
+      <Filter>Test Classes - JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\IntHandler.cpp">
+      <Filter>Test Classes - JSON</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\Monster.cpp">
+      <Filter>Test Classes - Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.test.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\MonsterArray.cpp">
+      <Filter>Test Classes - Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.test.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\TimeSum.cpp">
+      <Filter>Test Classes - GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\ActionIncrement.cpp">
+      <Filter>Test Classes - GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\ChildOfGameObject.cpp">
+      <Filter>Test Classes - GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.test.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\ThrowBoneEventHandler.cpp">
+      <Filter>Test Classes - Event</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\Person.cpp">
+      <Filter>Test Classes - Event</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClasses\Dog.cpp">
+      <Filter>Test Classes - Event</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\ChildOfEmpty.h">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\Empty.h">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\Foo.h">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\Temp.h">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\Mage.h">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\Elf.h">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\WhiteMage.h">
+      <Filter>Test Classes - Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\TestParseHandler.h">
+      <Filter>Test Classes - JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\TestWrapper.h">
+      <Filter>Test Classes - JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\IntWrapper.h">
+      <Filter>Test Classes - JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\IntHandler.h">
+      <Filter>Test Classes - JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\Monster.h">
+      <Filter>Test Classes - Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\MonsterArray.h">
+      <Filter>Test Classes - Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\TimeSum.h">
+      <Filter>Test Classes - GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\ActionIncrement.h">
+      <Filter>Test Classes - GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\ChildOfGameObject.h">
+      <Filter>Test Classes - GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\TemplateHFileAttributed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\ThrowBoneEventHandler.h">
+      <Filter>Test Classes - Event</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\Person.h">
+      <Filter>Test Classes - Event</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClasses\Dog.h">
+      <Filter>Test Classes - Event</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TestFiles\testInvalidJsonString.txt">
+      <Filter>Test Classes - JSON\Test Files - JSON</Filter>
+    </Text>
+    <Text Include="TestFiles\testJsonString.txt">
+      <Filter>Test Classes - JSON\Test Files - JSON</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

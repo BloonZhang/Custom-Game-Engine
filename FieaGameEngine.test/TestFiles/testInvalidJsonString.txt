@@ -1,0 +1,20 @@
+{
+    "int":1
+    "obj":{
+        "int":1,
+        "obj":{
+            "int":1,
+            "str":"abc"
+        },
+        "str":"abc"
+    },
+    "obj2":{
+        "int":1,
+        "obj":{
+            "int":1,
+            "str":"abc"
+        },
+        "str":"abc"
+    },
+    "str":"abc"
+}
